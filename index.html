@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Preview • Pico.css</title>
+    <meta
+      name="description"
+      content="A starter example with all elements and components used in Pico design system. Built with Pico CSS."
+    />
+    <link rel="shortcut icon" href="https://picocss.com/favicon.ico" />
+    <link rel="canonical" href="https://picocss.com/examples/preview/" />
+
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="container">
+      <hgroup>
+        <h1>Griffin Bell - Programmer Analyst</h1>
+       <h3>
+        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
+          <img src="images/linkedin.png" alt="LinkedIn Icon" style="width: 40px; height: 40px; margin-right: 15px;">
+        </a>
+        <a href="https://github.com/your-github-profile" target="_blank">
+          <img src="images/github-mark-white.png" alt="GitHub Icon"style="width: 40px; height: 40px; margin-right: 15px;">
+        </a>
+      </h3>
+      </hgroup>
+    </header>
+    <!-- ./ Header -->
+
+    <!-- Main -->
+    <main class="container">
+      <img src="images/Griffin.jpg" alt="" style="width: 200px; height: 200px; float: right; margin-left: 15px;">
+      <!-- Lists-->
+        <h3>What you should know:</h3>
+        <ul>
+          <li>Proficient in C#, Java, SQL, JavaScript and PHP</li>
+          <li>Worked in many different fields, giving me a unique range of skills and experiences</li>
+          <li>Great teamwork skills from working in fast-paced, team-oriented roles such as retail.</li>
+        </ul>
+        <!-- Headings-->
+        <h3>About Me!</h3>
+        <p>
+          I'm a 22 year old student at NBCC, studying in the Programmer Analyst program. I have a passion for most things technology and love learning new things. I started this program because I was tired of doing things I didn't enjoy, and turns out I'm pretty good at coding!
+          I'm also a huge nerd for anything music or video game related.
+        </p>
+      </section>
+      <!-- ./ Form elements-->
+      <!-- Accordions -->
+      <section id="accordions">
+        <h2>Work Experience</h2>
+        <details>
+          <summary>Bell Aliant - Logistics Technician</summary>
+          <p>
+            Overseeing the logistics of the company's incoming and outgoing shipments. This includes inputting information into a database, tracking shipments, and communicating with clients about the package's progress.
+          </p>
+        </details>
+        <details>
+          <summary>Walmart - Customer Experience Associate</summary>
+          <ul>
+            <p>
+              Ensured that customers who interact with the company's products or services have a positive experience, stocking shelves, setting up displays, ringing up purchases, and answering customer questions.
+            </p>
+          </ul>
+        </details>
+        <details>
+          <summary>ASM Canada - Merchandiser</summary>
+          <p>
+            Responsible for the setup and takedown of displays, as well as the stocking of shelves. This was an overnight job that required me to work independently and efficiently.
+          </p>
+        </details>
+        <details>
+          <summary>City of Miramichi - Facility Attendant</summary>
+          <p>
+            Responsible for the setup and takedown of displays, as well as the stocking of shelves. This was an overnight job that required me to work independently and efficiently.
+          </p>
+        </details>
+      </section>
+      <section aria-label="Subscribe example">
+        <div class="container">
+          <article>
+            <hgroup>
+              <h2>Contact me!</h2>
+              <h3>You can also find me on LinkedIn.</h3>
+            </hgroup>
+            <form class="grid">
+              <input
+                type="text"
+                id="firstname"
+                name="firstname"
+                placeholder="First name"
+                aria-label="First name"
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email address"
+                aria-label="Email address"
+                required
+              />
+              <button type="submit" onclick="event.preventDefault()">Send</button>
+            </form>
+          </article>
+        </div>
+      </section>
+      <!-- ./ Accordions -->
+    </main>
+    <!-- ./ Main -->
+
+    <!-- Footer -->
+    <footer class="container">
+      <small
+        >Built with <a href="https://picocss.com">Pico</a> •
+        <a href="https://github.com/picocss/examples/blob/master/v1-preview/index.html"
+          >Source code</a
+        ></small
+      >
+    </footer>
+    <!-- ./ Footer -->
+  </body>
+</html>
